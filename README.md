@@ -20,28 +20,27 @@ Weather Database, Vacation Search, Vacation Itinerary
 
 ### Weather Database: collect the Data
 
-    - Use the NumPy module to generate more than 2,000 random latitudes and longitudes.
-    - Use the citipy module to list the nearest city to the latitudes and longitudes.
-    - Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
-    - Parse the JSON data from the API request.
-    - Collect the following data from the JSON file and add it to a DataFrame:
-    - City, country
-    - Latitude and longitude
-    - Maximum temperature
-    - Humidity
-    - Cloudiness
-    - Wind speed
-    - Weather description
+  - Use the NumPy module to generate more than 2,000 random latitudes and longitudes.
+  - Use the citipy module to list the nearest city to the latitudes and longitudes.
+  - Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
+  - Parse the JSON data from the API request.
+  - Collect the following data from the JSON file and add it to a DataFrame:
+  - City, country
+  - Latitude and longitude
+  - Maximum temperature
+  - Humidity
+  - Cloudiness
+  - Wind speed
+  - Weather description
   
 ### Vacation Search: create a map with pop-up markers that can display information on specific cities based on a customer's travel preferences.
 
-    - Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
-    - Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
-    - Add pop-up markers to the map that display information about the city, current maximum temperature, and a hotel in the city.
+  - Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
+  - Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
+  - Add pop-up markers to the map that display information about the city, current maximum temperature, and a hotel in the city.
 
 ###  Vacation Itinerary: visualize Travel Data
    
-    - From the list of potential travel destinations,  four cities was randomly choosen to create a travel itinerary. 
-    - Using the Google Maps Directions API,  a travel route was created between the four cities 
-    - A marker layer map was created with the four cities.
-
+  - From the list of potential travel destinations,  four cities was randomly choosen to create a travel itinerary. 
+  - Using the Google Maps Directions API,  a travel route was created between the four cities. 
+  - A marker layer map was created with the four cities.
